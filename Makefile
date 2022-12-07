@@ -14,8 +14,8 @@
 
 .PHONY: all push build build-bin build-container clean
 
-REGISTRY ?= karlherler
-IMAGE = $(REGISTRY)/pause
+REGISTRY ?= saboteurkid
+IMAGE = $(REGISTRY)/socat-pause
 
 TAG = 1.0
 
